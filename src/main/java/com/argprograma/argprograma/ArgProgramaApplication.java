@@ -28,7 +28,7 @@ public class ArgProgramaApplication {
 	return new WebMvcConfigurer() {
 	@Override
 	public void addCorsMappings(CorsRegistry registry) {
-	    registry.addMapping("/**").allowedOrigins("https://mi-portfolio-front.web.app")
+	    registry.addMapping("/**").allowedOrigins("https://mi-portfolio-jazz.web.app")
                     .allowedMethods("*")
                     .allowedHeaders("*");
 		
